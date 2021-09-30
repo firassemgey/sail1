@@ -794,6 +794,9 @@ pre code {
     padding-right: 0;
     padding-left: 0;
 }
+#logoindex{
+    padding-bottom: 20px;
+}
 .col {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1980,6 +1983,7 @@ pre code {
     color: #333333;
     background-color: transparent;
 }
+
 .table td,
 .table th {
     padding: 30px 0 23px;
