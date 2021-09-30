@@ -21285,3 +21285,9 @@ hr:not([size]) {
     font-weight: 700;
     color: #838c96;
 }
+.btnbar{
+    background-color: #0e0e0e;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+}
