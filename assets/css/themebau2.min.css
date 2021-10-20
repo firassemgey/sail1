@@ -794,9 +794,137 @@ pre code {
     padding-right: 0;
     padding-left: 0;
 }
-#logoindex{
-    padding-bottom: 20px;
+
+
+
+
+
+.firas{
+
+    position: absolute;
+    opacity: 0.2;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
 }
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    25% { -moz-transform: rotate(30deg); }
+    50% { -moz-transform: rotate(0deg); }
+    75% { -moz-transform: rotate(-30deg); }
+    100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    25% { -webkit-transform: rotate(30deg); }
+    50% { -webkit-transform: rotate(0deg); }
+    75% { -webkit-transform: rotate(-30deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(30deg);
+        transform:rotate(0deg);
+    }    25% {
+             -webkit-transform: rotate(30deg);
+             transform:rotate(30deg);
+         }    75% {
+                  -webkit-transform: rotate(30deg);
+                  transform:rotate(-30deg);
+              }    100% {
+                       -webkit-transform: rotate(30deg);
+                       transform:rotate(0deg);
+                   }
+}
+
+#logoindex1{
+    position: absolute;
+    left: 127px;
+    padding-bottom: 20px;
+    -webkit-animation:move 3s ease-out;
+    -moz-animation:move 3s ease-out;
+    animation:move 3s ease-out ;
+}
+@-moz-keyframes move {
+    0% { -moz-transform: translateX(0px); }
+    100% { -moz-transform: translateX(-100px); }
+}
+@-webkit-keyframes move {
+    0% { -webkit-transform: (0px); }
+    100% { -webkit-transform: translateX(-100px); }
+}
+@keyframes move {
+
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform:translateX(-100px);
+    }
+}
+
+
+#logoindex2{
+    padding-bottom: 20px;
+    -webkit-animation:spin2 3.5s linear ;
+    -moz-animation:spin2 3.5s linear ;
+    animation:spin2 7s linear ;
+}
+@-moz-keyframes spin2 {
+    0% { -moz-transform: rotate(0deg); }
+    25% { -moz-transform: rotate(30deg); }
+    50% { -moz-transform: rotate(0deg); }
+    75% { -moz-transform: rotate(-30deg); }
+    100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin2 {
+    0% { -webkit-transform: rotate(0deg); }
+    25% { -webkit-transform: rotate(30deg); }
+    50% { -webkit-transform: rotate(0deg); }
+    75% { -webkit-transform: rotate(-30deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin2 {
+    0% {
+        -webkit-transform: rotate(30deg);
+        transform:rotate(0deg);
+    }    25% {
+             -webkit-transform: rotate(30deg);
+             transform:rotate(30deg);
+         }    75% {
+                  -webkit-transform: rotate(30deg);
+                  transform:rotate(-30deg);
+              }    100% {
+                       -webkit-transform: rotate(30deg);
+                       transform:rotate(0deg);
+                   }
+}
+#logoindex3{
+    position: absolute;
+    right: 82px;
+    padding-bottom: 20px;
+    -webkit-animation:move1 3s linear ;
+    -moz-animation:move1 3s linear ;
+    animation:move1 3s linear ;
+    animation-delay: 3.8s;
+
+}
+@-moz-keyframes move1 {
+    0% { -moz-transform: translateX(0px); }
+    100% { -moz-transform: translateX(100px); }
+}
+@-webkit-keyframes move1 {
+    0% { -webkit-transform: translateX(0px); }
+    100% { -webkit-transform: translateX(100px); }
+}
+@keyframes move1 {
+
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform:translateX(100px);
+    }
+}
+
 .col {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -4466,6 +4594,27 @@ input[type="submit"].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 0;
+}
+.glass {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.glass:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -20250,7 +20399,7 @@ blockquote {
     }
 }
 
-}
+
 .shape {
     position: absolute;
     top: 0;

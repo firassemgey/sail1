@@ -2780,8 +2780,96 @@ textarea.form-control.is-invalid {
         transition: none;
     }
 }
-#logoindex{
+
+#logoindex1{
+    position: absolute;
+    left: 127px;
     padding-bottom: 20px;
+    -webkit-animation:move 3s ease-out
+;
+    -moz-animation:move 3s ease-out
+;
+    animation:move 3s ease-out
+;
+}
+@-moz-keyframes move {
+    0% { -moz-transform: translateX(0px); }
+    100% { -moz-transform: rotate(0px); }
+}
+@-webkit-keyframes move {
+    0% { -webkit-transform: translateX(0px); }
+    100% { -webkit-transform: translateX(0px); }
+}
+@keyframes move {
+
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform:translateX(-100px);
+    }
+}
+
+
+#logoindex2{
+    padding-bottom: 20px;
+    -webkit-animation:spin2 3.5s linear ;
+    -moz-animation:spin2 3.5s linear ;
+    animation:spin2 7s linear ;
+}
+@-moz-keyframes spin2 {
+    0% { -moz-transform: rotate(0deg); }
+    25% { -moz-transform: rotate(30deg); }
+    50% { -moz-transform: rotate(0deg); }
+    75% { -moz-transform: rotate(-30deg); }
+    100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spin2 {
+    0% { -webkit-transform: rotate(0deg); }
+    25% { -webkit-transform: rotate(30deg); }
+    50% { -webkit-transform: rotate(0deg); }
+    75% { -webkit-transform: rotate(-30deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+@keyframes spin2 {
+    0% {
+        -webkit-transform: rotate(30deg);
+        transform:rotate(0deg);
+    }    25% {
+             -webkit-transform: rotate(30deg);
+             transform:rotate(30deg);
+         }    75% {
+                  -webkit-transform: rotate(30deg);
+                  transform:rotate(-30deg);
+              }    100% {
+                       -webkit-transform: rotate(30deg);
+                       transform:rotate(0deg);
+                   }
+}
+#logoindex3{
+    position: absolute;
+    right: 82px;
+    padding-bottom: 20px;
+    -webkit-animation:move1 3s linear ;
+    -moz-animation:move1 3s linear ;
+    animation:move1 3s linear ;
+    animation-delay: 3.8s;
+
+}
+@-moz-keyframes move1 {
+    0% { -moz-transform: translateX(0px); }
+    100% { -moz-transform: rotate(0px); }
+}
+@-webkit-keyframes move1 {
+    0% { -webkit-transform: translateX(0px); }
+    100% { -webkit-transform: translateX(0px); }
+}
+@keyframes move1 {
+
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform:translateX(100px);
+    }
 }
 .btn:hover {
     color: #0e0e0e;
