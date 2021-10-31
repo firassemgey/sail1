@@ -924,7 +924,7 @@ pre code {
     }
 }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     #logoindex1{
         position: absolute;
         left: 157px;
@@ -942,7 +942,7 @@ pre code {
 
     }
 }
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     #logoindex1{
         position: absolute;
         left: 195px;
@@ -961,7 +961,7 @@ pre code {
     }
 }
 
-@media (max-width: 827px) {
+@media screen and (max-width: 827px) {
     #logoindex1{
         position: absolute;
         left: 68px;
