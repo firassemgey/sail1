@@ -2780,7 +2780,12 @@ textarea.form-control.is-invalid {
         transition: none;
     }
 }
-
+@media (min-width: 1200px) {
+    #logoindex1{  position: absolute;
+        left: 140px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out}
+}
 #logoindex1{
     position: absolute;
     left: 127px;
@@ -2831,19 +2836,15 @@ textarea.form-control.is-invalid {
     100% { -webkit-transform: rotate(0deg); }
 }
 @keyframes spin2 {
-    0% {
-        -webkit-transform: rotate(30deg);
+    0% {-webkit-transform: rotate(30deg);
+        transform:rotate(0deg);}
+    25% {-webkit-transform: rotate(30deg);
+        transform:rotate(30deg);}
+    75% {-webkit-transform: rotate(30deg);
+        transform:rotate(-30deg);}
+    100% {-webkit-transform: rotate(30deg);
         transform:rotate(0deg);
-    }    25% {
-             -webkit-transform: rotate(30deg);
-             transform:rotate(30deg);
-         }    75% {
-                  -webkit-transform: rotate(30deg);
-                  transform:rotate(-30deg);
-              }    100% {
-                       -webkit-transform: rotate(30deg);
-                       transform:rotate(0deg);
-                   }
+    }
 }
 #logoindex3{
     position: absolute;

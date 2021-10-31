@@ -837,6 +837,7 @@ pre code {
                    }
 }
 
+
 #logoindex1{
     position: absolute;
     left: 127px;
@@ -917,11 +918,65 @@ pre code {
     100% { -webkit-transform: translateX(100px); }
 }
 @keyframes move1 {
-
-
     100% {
         -webkit-transform: translateX(0px);
         transform:translateX(100px);
+    }
+}
+
+@media (max-width: 1199px) {
+    #logoindex1{
+        position: absolute;
+        left: 157px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out
+    }
+    #logoindex3{
+        position: absolute;
+        right: 108px;
+        padding-bottom: 20px;
+        -webkit-animation:move1 3s linear ;
+        -moz-animation:move1 3s linear ;
+        animation:move1 3s linear ;
+        animation-delay: 3.8s;
+
+    }
+}
+@media (max-width: 1023px) {
+    #logoindex1{
+        position: absolute;
+        left: 195px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out
+    }
+    #logoindex3{
+        position: absolute;
+        right: 150px;
+        padding-bottom: 20px;
+        -webkit-animation:move1 3s linear ;
+        -moz-animation:move1 3s linear ;
+        animation:move1 3s linear ;
+        animation-delay: 3.8s;
+
+    }
+}
+
+@media (max-width: 827px) {
+    #logoindex1{
+        position: absolute;
+        left: 68px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out
+    }
+    #logoindex3{
+        position: absolute;
+        right: 18px;
+        padding-bottom: 20px;
+        -webkit-animation:move1 3s linear ;
+        -moz-animation:move1 3s linear ;
+        animation:move1 3s linear ;
+        animation-delay: 3.8s;
+
     }
 }
 
