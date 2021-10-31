@@ -997,6 +997,36 @@ pre code {
 
     }
 }
+@media screen and (max-width: 615px) {
+    #logoindex1{
+        width: 15%;
+        top: -1.2px!important;
+        position: absolute;
+        left: 96px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out
+    }
+    #logoindex2{
+        width: 18%;
+        padding-bottom: 20px;
+        -webkit-animation:spin2 3.5s linear ;
+        -moz-animation:spin2 3.5s linear ;
+        animation:spin2 7s linear ;
+    }
+    #logoindex3{
+        width: 18.5%;
+        top: 1px;
+        position: absolute;
+        right: 78px;
+        padding-bottom: 20px;
+        -webkit-animation:move1 3s linear ;
+        -moz-animation:move1 3s linear ;
+        animation:move1 3s linear ;
+        animation-delay: 3.8s;
+
+    }
+}
+
 
 
 
