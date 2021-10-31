@@ -982,13 +982,13 @@ pre code {
 @media screen and (max-width: 619px) {
     #logoindex1{
         position: absolute;
-        left: 105px;
+        left: 106px;
         padding-bottom: 20px;
         -webkit-animation:move 3s ease-out
     }
     #logoindex3{
         position: absolute;
-        right: 58px;
+        right: 57px;
         padding-bottom: 20px;
         -webkit-animation:move1 3s linear ;
         -moz-animation:move1 3s linear ;
