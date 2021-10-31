@@ -979,6 +979,26 @@ pre code {
 
     }
 }
+@media screen and (max-width: 619px) {
+    #logoindex1{
+        position: absolute;
+        left: 105px;
+        padding-bottom: 20px;
+        -webkit-animation:move 3s ease-out
+    }
+    #logoindex3{
+        position: absolute;
+        right: 58px;
+        padding-bottom: 20px;
+        -webkit-animation:move1 3s linear ;
+        -moz-animation:move1 3s linear ;
+        animation:move1 3s linear ;
+        animation-delay: 3.8s;
+
+    }
+}
+
+
 
 .col {
     -ms-flex-preferred-size: 0;
