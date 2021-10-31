@@ -855,8 +855,6 @@ pre code {
     100% { -webkit-transform: translateX(-100px); }
 }
 @keyframes move {
-
-
     100% {
         -webkit-transform: translateX(0px);
         transform:translateX(-100px);
@@ -1006,6 +1004,20 @@ pre code {
         padding-bottom: 20px;
         -webkit-animation:move 3s ease-out
     }
+    @-moz-keyframes move {
+        0% { -moz-transform: translateX(0px); }
+        100% { -moz-transform: translateX(-90px); }
+    }
+    @-webkit-keyframes move {
+        0% { -webkit-transform: (0px); }
+        100% { -webkit-transform: translateX(-90px); }
+    }
+    @keyframes move {
+        100% {
+            -webkit-transform: translateX(0px);
+            transform:translateX(-90px);
+        }
+    }
     #logoindex2{
         width: 18%;
         padding-bottom: 20px;
@@ -1027,16 +1039,16 @@ pre code {
     }
     @-moz-keyframes move1 {
         0% { -moz-transform: translateX(0px); }
-        100% { -moz-transform: translateX(60px); }
+        100% { -moz-transform: translateX(65px); }
     }
     @-webkit-keyframes move1 {
         0% { -webkit-transform: translateX(0px); }
-        100% { -webkit-transform: translateX(60px); }
+        100% { -webkit-transform: translateX(65px); }
     }
     @keyframes move1 {
         100% {
             -webkit-transform: translateX(0px);
-            transform:translateX(60px);
+            transform:translateX(65px);
         }
     }
 }
