@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>#mySVG {
+            position: fixed;
+            right: 1165px !important;
+            top: -80px;
+            width: auto;
+            height: 80px;
+            margin-left:-50px;
+            z-index: 0;
+        }</style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Themebau | Demo Landing</title>
@@ -20,6 +29,9 @@
         <link id="them" rel="stylesheet" href="assets/css/themebau2.min.css">
         <!-- Custom Styles -->
         <link rel="stylesheet" href="assets/css/custom.css">
+        <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css">
+
         <!-- END: Styles -->
         <!-- jQuery -->
         <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
@@ -28,7 +40,7 @@
         <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed ">
             <div class="container ">
                 <a class="navbar-brand order-1" href="index.html">
-                    <img id="firass" width="107" src="assets/images/SaillLOGO.png" alt="">
+                    <img class="wow hinge" id="firass" data-wow-duration="3s" data-wow-delay="2s" width="107" src="assets/images/SaillLOGO.png" alt="">
                 </a>
                 <a class="navbar-toggle order-4" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
@@ -38,7 +50,7 @@
                 <ul class="nav navbar-nav order-2 ">
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega">
                         <a href="index.html" class="nav-link">
-                            <span class="nav-link-name">projects</span>
+                            <span class="nav-link-name ">projects</span>
                             <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -47,47 +59,47 @@
                             <div class="container">
                                 <ul role="menu" class="navbar-nav row gh-1 gv-3">
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="home.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/main-home.jpg" alt=""></span><span class="nav-link-name">main home</span>
+                                        <a href="fullscreen-showcase1.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/main-home.jpg" alt=""></span><span class="nav-link-name">main home</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="simple-portfolio.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/simple-portfolio.jpg" alt=""></span><span class="nav-link-name">simple portofolio</span>
+                                        <a href="fullscreen-showcase2.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/simple-portfolio.jpg" alt=""></span><span class="nav-link-name">simple portofolio</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="creative-agency.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/creative-agency.jpg" alt=""></span><span class="nav-link-name">creative agency</span>
+                                        <a href="fullscreen-showcase3.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/creative-agency.jpg" alt=""></span><span class="nav-link-name">creative agency</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="freelancer-portfolio.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/freelancer-portfolio.jpg" alt=""></span><span class="nav-link-name">freelancer portfolio</span>
+                                        <a href="fullscreen-showcase4.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/freelancer-portfolio.jpg" alt=""></span><span class="nav-link-name">freelancer portfolio</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="interactive-links-dark.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/interactive-dark.jpg" alt=""></span><span class="nav-link-name">interactive dark</span>
+                                        <a href="fullscreen-showcase5.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/interactive-dark.jpg" alt=""></span><span class="nav-link-name">interactive dark</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="interactive-links-light.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/interactive-light.jpg" alt=""></span><span class="nav-link-name">interactive light</span>
+                                        <a href="fullscreen-showcase10.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/interactive-light.jpg" alt=""></span><span class="nav-link-name">interactive light</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="left-menu.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/left-menu.jpg" alt=""></span><span class="nav-link-name">left menu</span>
+                                        <a href="fullscreen-showcase11.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/left-menu.jpg" alt=""></span><span class="nav-link-name">left menu</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="digital-agency.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/digital-agency.jpg" alt=""></span><span class="nav-link-name">digital agency</span>
+                                        <a href="fullscreen-showcase6.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/digital-agency.jpg" alt=""></span><span class="nav-link-name">digital agency</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="carousel-dark.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/carousel-dark.jpg" alt=""></span><span class="nav-link-name">carousel dark</span>
+                                        <a href="fullscreen-showcase9.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/carousel-dark.jpg" alt=""></span><span class="nav-link-name">carousel dark</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="carousel-light.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/carousel-light.jpg" alt=""></span><span class="nav-link-name">carousel light</span>
+                                        <a href="fullscreen-showcase8.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/carousel-light.jpg" alt=""></span><span class="nav-link-name">carousel light</span>
                                         </a>
                                     </li>
                                     <li class="nav-item col-md-6 col-lg-3 col-xl-2">
-                                        <a href="fullscreen-showcase.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/fullscreen-showcase.jpg" alt=""></span><span class="nav-link-name">fullscreen showcase</span>
+                                        <a href="fullscreen-showcase7.html" class="nav-link"><span class="nav-link-image"><img src="assets/images/demos/fullscreen-showcase.jpg" alt=""></span><span class="nav-link-name">fullscreen showcase</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -616,9 +628,11 @@
             <div class="py-160 bg-dark text-center">
                 <div class="container shape-parent">
                     <div class="shape ml-60">
-
                     </div>
-                    <div class="row justify-content-center text-white mb-100">
+                    <div class="row justify-content-center text-white mb-100 ">
+                        <div>
+                            <img class="wow bounceInUp" data-wow-duration="4s" id="mySVG" src="Saill-LOGO-F.png">
+                        </div>
                         <div class="col-12 col-lg-8 col-xl-6">
                             <img id="logoindex1" src="assets/images/Saill%20LOGO%20s.png">
                             <img id="logoindex2" src="assets/images/Saill%20LOGO%20F.png">
@@ -628,112 +642,112 @@
                     </div>
                     <div class="row gh-1 gv-4">
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="50">
-                            <a href="home.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase1.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/main-home-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Main Home</span>
+                                    <span class="card-title h5 wow fadeInUp">Main Home</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="150">
-                            <a href="simple-portfolio.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase2.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/simple-portfolio-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Simple Portfolio</span>
+                                    <span class="card-title h5 wow fadeInUp">Simple Portfolio</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="250">
-                            <a href="creative-agency.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase3.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/creative-agency-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Creative Agency</span>
+                                    <span class="card-title h5 wow fadeInUp">Creative Agency</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="50">
-                            <a href="freelancer-portfolio.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase4.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/freelancer-portfolio-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Freelancer Portfolio</span>
+                                    <span class="card-title h5 wow fadeInUp">Freelancer Portfolio</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="150">
-                            <a href="interactive-links-dark.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase5.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/interactive-dark-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Interactive Dark</span>
+                                    <span class="card-title h5 wow fadeInUp">Interactive Dark</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="250">
-                            <a href="digital-agency.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase6.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/digital-agency-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Digital Agency</span>
+                                    <span class="card-title h5 wow fadeInUp">Digital Agency</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="50">
-                            <a href="fullscreen-showcase.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase7.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/fullscreen-slider-740-362.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Fullscreen Slider</span>
+                                    <span class="card-title h5 wow fadeInUp">Fullscreen Slider</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="150">
-                            <a href="carousel-light.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase8.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/carousel-light-740-362.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Carousel Light</span>
+                                    <span class="card-title h5 wow fadeInUp">Carousel Light</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="250">
-                            <a href="carousel-dark.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase9.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/carousel-dark-740-362.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Carousel Dark</span>
+                                    <span class="card-title h5 wow fadeInUp">Carousel Dark</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="50">
-                            <a href="interactive-links-light.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase10.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/interactive-light-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Interactive Light</span>
+                                    <span class="card-title h5 wow fadeInUp">Interactive Light</span>
                                 </span>
                             </a>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="150">
-                            <a href="left-menu.html" class="card card-demo text-white">
+                            <a href="fullscreen-showcase11.html" class="card card-demo text-white">
                                 <span class="card-img">
                                     <img src="assets/images/demos/left-menu-740-600.jpg" alt="">
                                 </span>
                                 <span class="card-body">
-                                    <span class="card-title h5">Left Menu</span>
+                                    <span class="card-title h5 wow fadeInUp">Left Menu</span>
                                 </span>
                             </a>
                         </div>
@@ -885,9 +899,7 @@
             </div>
             <div class="py-130 bg-dark overflow-hidden shape-parent">
                 <div class="shape justify-content-end mt-n130">
-                    <svg class="mt-n160 mr-n60" width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="320" cy="320" r="320" fill="#202020" />
-                    </svg>
+
                 </div>
                 <div class="container">
                     <div class="row gh-1 gv-xs mt-n30">
@@ -1131,6 +1143,10 @@
         <!-- Themebau -->
         <script src="assets/js/themebau.min.js"></script>
         <script src="assets/js/gray1.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <!-- END: Scripts -->
     </body>
 </html>
