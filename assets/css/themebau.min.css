@@ -18806,7 +18806,7 @@ body {
     flex: 0 0 100%;
     max-width: 100%;
     z-index: 1;
-    background-color: #3333333;
+    background-color: #333333 !important;
 }
 .sticky-top {
     top: 0;
