@@ -30,3 +30,20 @@ btn_save.addEventListener("click",()=>{
     enabel.style.right = "";
 });
 
+
+
+
+if (window.innerWidth <= 700) {
+    // Set the <= 800 state
+    window.onload=function(){
+        const screen = document.getElementById("12213");
+        screen.addEventListener("click",()=>{
+            screen.setAttribute("href", "carousel-dark.html");
+        });
+    };
+
+} else {
+    // Set the > 800 state
+
+
+}
