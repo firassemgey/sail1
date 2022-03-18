@@ -17343,7 +17343,7 @@ select.form-control {
 }
 @media (max-width: 827.98px) {
     .card-portfolio.card-overlay .card-img {
-        min-height: auto;
+        min-height: 420px;
     }
 }
 .card-portfolio.card-horizontal {
