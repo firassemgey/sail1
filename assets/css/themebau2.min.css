@@ -21,7 +21,7 @@
     height: 100%;
     font-family: "object-fit: cover";
     -o-object-fit: cover;
-    object-fit: cover;
+
 }
 .icon-arrow,
 .swiper-button-next svg,
@@ -17542,7 +17542,7 @@ color: #333333;
 }
 @media (max-width: 827.98px) {
     .card-portfolio.card-overlay .card-img {
-        min-height: 300px;
+        min-height: 420px;
     }
 }
 .card-portfolio.card-horizontal {
