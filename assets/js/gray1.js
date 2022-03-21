@@ -33,17 +33,5 @@ btn_save.addEventListener("click",()=>{
 
 
 
-if (window.innerWidth <= 700) {
-    alert("sssss");
-    // Set the <= 800 state
-     const swipertextwhite =document.getElementById("swipertextwhite");
-
-    if (swipertextwhite){
-
-        let swipertextwhite= document.getElementById("swipertextwhite").className="firas";
-
-    }else {
-    }
-
 
 }
