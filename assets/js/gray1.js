@@ -30,8 +30,3 @@ btn_save.addEventListener("click",()=>{
     enabel.style.right = "";
 });
 
-
-
-
-
-}
