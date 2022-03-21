@@ -20,7 +20,7 @@ input.forEach((inp,index)=>{
 });
 
 const btn = document.getElementById("btnbar");
-btn.addEventListener("click",()=>{
+    btn.addEventListener("click",()=>{
     const enabel=document.getElementById("end-bar");
     enabel.style.right = "0";
 });
@@ -34,16 +34,16 @@ btn_save.addEventListener("click",()=>{
 
 
 if (window.innerWidth <= 700) {
+    alert("sssss");
     // Set the <= 800 state
-    window.onload=function(){
-        const screen = document.getElementById("12213");
-        screen.addEventListener("click",()=>{
-            screen.setAttribute("href", "carousel-dark.html");
-        });
-    };
+     const swipertextwhite =document.getElementById("swipertextwhite");
 
-} else {
-    // Set the > 800 state
+    if (swipertextwhite){
+
+        let swipertextwhite= document.getElementById("swipertextwhite").className="firas";
+
+    }else {
+    }
 
 
 }
