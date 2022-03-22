@@ -19,6 +19,7 @@
         <link  id="them" rel="stylesheet" href="assets/css/themebau2.min.css">
         <!-- Custom Styles -->
         <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- END: Styles -->
         <!-- jQuery -->
         <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
@@ -29,11 +30,15 @@
                 <a class="navbar-brand" href="index.html">
                     <img width="107" src="assets/images/SaillLOGO.png" alt="">
                 </a>
-                <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
+                <div style="position: fixed; right: 25px;display: flex;" >
+                    <a  id="btnbar" class="fa" style="font-size:24px; margin: 0 25px;"> &#xf013</a>
+
+                    <a style=" margin: 0 25px;" class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center text-white">
                     <li class="nav-item">
                         <a href="https://facebook.com/runwebrun" class="nav-link">
@@ -294,12 +299,15 @@
             </div>
         </div>
         <div class="content-wrap">
-            <div class="swiper text-white swiper-fullscreen-vertical" data-swiper-slides="1" data-swiper-speed="600" data-swiper-vertical="true">
+            <div id="swipertextwhite" class="swiper text-white swiper-fullscreen-vertical" data-swiper-slides="auto" data-swiper-speed="600" data-swiper-center="true" data-swiper-breakpoints="500:auto, 0:1" data-swiper-gap="100" data-swiper-loop="true" >
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+
+
+
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/7.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -338,9 +346,13 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-col-1-style-2.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/8.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -381,7 +393,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/9.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -422,7 +434,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-col-1-style-2.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/10.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -463,7 +475,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/11.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -504,7 +516,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="card-wrapper h-100">
-                                <a class="card card-fullscreen text-white" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
+                                <a class="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center" href="portfolio-single-style-5.html" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <span class="card-img">
                                         <img src="assets/images/portfolio/12.jpg" alt="">
                                         <span class="background-color" style="background-color: rgba(14, 14, 14, .2);"></span>
@@ -553,7 +565,7 @@
 
 
 
-        <div class="end-bar2" id="end-bar2">
+        <div class="end-bar" id="end-bar">
 
             <div class="rightbar-title">
                 <h5 class="m-0">Settings</h5>
@@ -592,7 +604,7 @@
                         <label class="form-check-label" for="boxed-check">Boxed</label>
                     </div>
                     <div class="d-grid mt-4">
-                        <button class="btn btn-primary" id="resetBtn2">Save</button>
+                        <button class="btn btn-primary" id="resetBtn">Save</button>
                     </div>
                 </div> <!-- end padding-->
 

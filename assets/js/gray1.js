@@ -30,3 +30,21 @@ btn_save.addEventListener("click",()=>{
     enabel.style.right = "";
 });
 
+
+if (window.innerWidth <= 700) {
+    // Set the <= 800 state
+     const swipertextwhite =document.getElementById("swipertextwhite");
+
+    if (swipertextwhite){
+
+            let swipertextwhite= document.getElementById("swipertextwhite")
+        swipertextwhite.className="swiper text-white swiper-full swiper-full-horizontal swiper-portfolio-animejs";
+        swipertextwhite.setAttribute("data-swiper-center", "true");
+        swipertextwhite.removeAttribute('data-swiper-vertical');
+
+
+
+
+    }else {
+
+    }}
