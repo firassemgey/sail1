@@ -31,8 +31,11 @@ btn_save.addEventListener("click",()=>{
 });
 
 if (window.innerWidth <= 1024) {
-    const img =document.querySelector(".changImg");
-    img.className="img1";
+    const img =document.querySelectorAll(".changImg");
+    for (let i = 0; i < img.length; i++) {
+        img[i].className="img1";
+    }
+ 
 
 }
 
