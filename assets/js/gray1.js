@@ -31,14 +31,14 @@ btn_save.addEventListener("click",()=>{
 });
 
 if (window.innerWidth <= 1024) {
-    const img =document.getElementById("img1");
+    const img =document.getElementById("changImg");
     img.className="img1";
 
 }
 
 if (window.innerWidth <= 600) {
     // Set the <= 800 state
-     const swipertextwhite =document.getElementsByClassName("changImg");
+     const swipertextwhite =document.getElementsByClassName("swipertextwhite");
 
     if (swipertextwhite){
             let swipertextwhite= document.getElementById("swipertextwhite");
