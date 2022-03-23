@@ -38,7 +38,7 @@ if (window.innerWidth <= 1024) {
 
 if (window.innerWidth <= 600) {
     // Set the <= 800 state
-     const swipertextwhite =document.getElementById("swipertextwhite");
+     const swipertextwhite =document.getElementsByClassName("changImg");
 
     if (swipertextwhite){
             let swipertextwhite= document.getElementById("swipertextwhite");
