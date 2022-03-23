@@ -31,7 +31,7 @@ btn_save.addEventListener("click",()=>{
 });
 
 if (window.innerWidth <= 1024) {
-    const img =document.getElementById("changImg");
+    const img =document.getElementsByClassName("changImg");
     img.className="img1";
 
 }
