@@ -30,21 +30,21 @@ btn_save.addEventListener("click",()=>{
     enabel.style.right = "";
 });
 
+if (window.innerWidth <= 1024) {
+    const img =document.getElementById("img1");
+    img.className="img1";
 
-if (window.innerWidth <= 700) {
+}
+
+if (window.innerWidth <= 600) {
     // Set the <= 800 state
      const swipertextwhite =document.getElementById("swipertextwhite");
 
     if (swipertextwhite){
-
             let swipertextwhite= document.getElementById("swipertextwhite");
         swipertextwhite.className="swiper text-white swiper-full swiper-full-horizontal swiper-portfolio-animejs";
         swipertextwhite.setAttribute("data-swiper-center", "true");
         swipertextwhite.removeAttribute('data-swiper-vertical');
-
-
-
-
     }else {
 
     }}

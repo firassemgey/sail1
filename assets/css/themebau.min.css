@@ -21,7 +21,10 @@
     height: 100%;
     font-family: "object-fit: cover";
     -o-object-fit: cover;
-    object-fit: contain;
+    object-fit: cover;
+}
+.img1{
+    object-fit: contain !important;
 }
 .icon-arrow,
 .swiper-button-next svg,
