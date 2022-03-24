@@ -42,12 +42,17 @@ if (window.innerWidth <= 1024) {
 if (window.innerWidth <= 600) {
     // Set the <= 800 state
      const swipertextwhite =document.getElementById("swipertextwhite");
+     const paginationWrapper =document.querySelector(".swiper-pagination-wrapper");
+     const newDiv = document.createElement("div");
+     swipertextwhite.appendChild(newDiv);
+     newDiv.className="swiper-pagination";
 
     if (swipertextwhite){
             let swipertextwhite= document.getElementById("swipertextwhite");
         swipertextwhite.className="swiper text-white swiper-full swiper-full-horizontal swiper-portfolio-animejs";
         swipertextwhite.setAttribute("data-swiper-center", "true");
         swipertextwhite.removeAttribute('data-swiper-vertical');
+        paginationWrapper.remove();
     }else {
 
     }}
