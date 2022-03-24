@@ -678,14 +678,14 @@ pre code {
 @media (min-width: 620px) {
     .container,
     .container-sm {
-        max-width: 540px;
+        max-width: 640px;
     }
 }
 @media (min-width: 828px) {
     .container,
     .container-md,
     .container-sm {
-        max-width: 720px;
+        max-width: 750px;
     }
 }
 @media (min-width: 1024px) {
@@ -693,7 +693,7 @@ pre code {
     .container-lg,
     .container-md,
     .container-sm {
-        max-width: 960px;
+        max-width: 900px;
     }
 }
 @media (min-width: 1200px) {
@@ -16806,7 +16806,7 @@ a.text-dark:hover {
     .container-sm,
     .container-xl {
         padding-right: 40px;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 }
 .btn {
@@ -19319,7 +19319,7 @@ blockquote {
 @media (max-width: 827.98px) {
     .navbar-top .container {
         padding-right: 40px;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 }
 .navbar-top .navbar-brand {

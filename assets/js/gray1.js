@@ -35,7 +35,7 @@ if (window.innerWidth <= 1024) {
     for (let i = 0; i < img.length; i++) {
         img[i].className="img1";
     }
- 
+
 
 }
 
