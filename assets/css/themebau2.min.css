@@ -5272,6 +5272,7 @@ input[type="submit"].btn-block {
 }
 .card-img-overlay {
     position: absolute;
+    top:394px;
     right: 0;
     bottom: 0;
     left: 0;
