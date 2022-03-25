@@ -29,9 +29,8 @@ btn_save.addEventListener("click",()=>{
     const enabel=document.getElementById("end-bar");
     enabel.style.right = "";
 });
-
+const img =document.querySelectorAll(".changImg");
 if (window.innerWidth <= 1024) {
-    const img =document.querySelectorAll(".changImg");
     for (let i = 0; i < img.length; i++) {
         img[i].className="img1";
     }
@@ -43,9 +42,6 @@ if (window.innerWidth <= 600) {
     // Set the <= 800 state
      const swipertextwhite =document.getElementById("swipertextwhite");
      const paginationWrapper =document.querySelector(".swiper-pagination-wrapper");
-     const newDiv = document.createElement("div");
-     swipertextwhite.appendChild(newDiv);
-     newDiv.className="swiper-pagination";
 
     if (swipertextwhite){
             let swipertextwhite= document.getElementById("swipertextwhite");
@@ -53,6 +49,16 @@ if (window.innerWidth <= 600) {
         swipertextwhite.setAttribute("data-swiper-center", "true");
         swipertextwhite.removeAttribute('data-swiper-vertical');
         paginationWrapper.remove();
+        const newDiv = document.createElement("div");
+        swipertextwhite.appendChild(newDiv);
+        newDiv.className="swiper-pagination";
+        const cardFullscreen=document.querySelectorAll(".card-fullscreen");
+        for (let i = 0; i < cardFullscreen.length; i++) {
+            cardFullscreen[i].className="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center";
+        }
+        for (let i = 0; i < img.length; i++) {
+            img[i].src="assets/images/portfolio/"+ i + i +".jpg";
+        }
     }else {
 
     }}
