@@ -16830,8 +16830,11 @@ a.text-dark:hover {
     border-radius: 100%;
 }
 .btn-clean {
-    padding: 0;
+    padding: 0px;
     background-color: transparent;
+    position: absolute;
+    bottom: 65px;
+    left: 15px;
 }
 .btn-clean .icon-arrow-right,
 .btn-clean .swiper-button-next svg,
@@ -17457,8 +17460,8 @@ color: #333333;
 .card-portfolio .card-title-decoration {
     content: "";
     position: absolute;
-    top: -36px;
-    left: 0;
+    top: -66px;
+    left: -38px;
     width: 70px;
     border-top: 1px solid currentColor;
     will-change: width;

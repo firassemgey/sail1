@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6665ea-d2ce-40cf-8944-e9343de320e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/portfolio/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/themebau.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/themebau.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/themebau2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/themebau2.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/images/portfolio/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/portfolio/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/gray1.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/gray1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +27,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632226841022</updated>
       <workItem from="1632226842358" duration="11606000" />
-      <workItem from="1648059363245" duration="26290000" />
+      <workItem from="1648059363245" duration="28583000" />
     </task>
     <servers />
   </component>
