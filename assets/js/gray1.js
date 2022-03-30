@@ -42,6 +42,7 @@ if (window.innerWidth <= 600) {
     // Set the <= 800 state
      const swipertextwhite =document.getElementById("swipertextwhite");
      const paginationWrapper =document.querySelector(".swiper-pagination-wrapper");
+     const socialRes = document.querySelectorAll(".socialRes");
 
     if (swipertextwhite){
             let swipertextwhite= document.getElementById("swipertextwhite");
@@ -53,6 +54,9 @@ if (window.innerWidth <= 600) {
         swipertextwhite.appendChild(newDiv);
         newDiv.className="swiper-pagination";
         const cardFullscreen=document.querySelectorAll(".card-fullscreen");
+        for (let m = 0; m < socialRes.length; m++) {
+            socialRes[m].className = "card-social nav nav-gap-md align-items-center flex-column text-white flex-column1";
+        }
         for (let i = 0; i < cardFullscreen.length; i++) {
             cardFullscreen[i].className="card card-portfolio card-overlay card-image-sm card-bg-show text-white text-center";
         }
