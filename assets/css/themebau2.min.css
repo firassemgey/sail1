@@ -7463,6 +7463,7 @@ button.bg-dark:hover {
 }
 .flex-column1 {
     flex-direction:row !important;
+    margin-top: -10px !important;
 }
 .flex-row-reverse {
     -webkit-box-orient: horizontal !important;
