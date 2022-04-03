@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6665ea-d2ce-40cf-8944-e9343de320e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/themebau.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/themebau.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/themebau2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/themebau2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/demos/simple-portfolio-740-600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demos/simple-portfolio-740-600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/gray1.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/gray1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullscreen-showcase3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase3.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632226841022</updated>
       <workItem from="1632226842358" duration="11606000" />
-      <workItem from="1648059363245" duration="35649000" />
+      <workItem from="1648059363245" duration="37112000" />
     </task>
     <servers />
   </component>
