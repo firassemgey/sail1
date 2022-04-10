@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6665ea-d2ce-40cf-8944-e9343de320e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/amazing-nature-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/colibri-creative-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/dog-photoset-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/luxury-car-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/portrait-inspiration-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/project0/work-together.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullscreen-showcase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullscreen-showcase3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase3.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/wamp64/www/phpoop" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -50,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632226841022</updated>
       <workItem from="1632226842358" duration="11606000" />
-      <workItem from="1648059363245" duration="38170000" />
+      <workItem from="1648059363245" duration="44341000" />
     </task>
     <servers />
   </component>
