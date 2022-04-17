@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ed6665ea-d2ce-40cf-8944-e9343de320e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/project0/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/amazing-nature-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/colibri-creative-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/dog-photoset-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/luxury-car-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/portrait-inspiration-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/project0/work-together.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullscreen-showcase3.html" beforeDir="false" afterPath="$PROJECT_DIR$/fullscreen-showcase3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/demos/creative-agency.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demos/creative-agency.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/demos/main-home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demos/main-home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/demos/simple-portfolio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demos/simple-portfolio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +56,7 @@
       <updated>1632226841022</updated>
       <workItem from="1632226842358" duration="11606000" />
       <workItem from="1648059363245" duration="44341000" />
+      <workItem from="1650220122736" duration="3476000" />
     </task>
     <servers />
   </component>
